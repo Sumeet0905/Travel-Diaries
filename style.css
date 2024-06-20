@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-position:50% 60%;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+} 
+
+#text{
+    align-items:last baseline;
+    justify-content:space-between;
+    display: flex;
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    padding: 0 10vw;
+    color: #ffff;
+}
+
+#text h1{
+    font-weight: 500;
+    font-size: 3vw;
+    width: 50%;
+}
+
+#textright{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+#textright p{
+
+    text-align: justify;
+    font-size: 17px;
+    height: 20%;
+    width: 50%;
+}
+
+#textright i{
+    color: white;
+    size: 20vw;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#bottom{
+    width: 100%;
+    min-height: 45vh;
+    display: flex;;
+}
+
+#b1{
+    color: white;
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1579017308347-e53e0d2fc5e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGlhcnl8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+}
+#b1 i{
+    color: white;
+}
+#b1 p{
+    width: 65%;
+}
+
+
+#b2{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    color :white;
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1514509353532-1419c0935d72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+
+
+#b2 i{
+    color: #ffff;
+    padding: 7px 7% 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#b2 p{
+    font-weight: 400;
+    padding: 73% 10% 10% 10%;
+     size: 1vw;
+     align-items:center ;
+     text-align: center;
+}
+
+#b3{
+    width: 20%;
+    min-height: inherit;
+    background-color:green;
+}
+
+#b3top{
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(https://images.unsplash.com/photo-1501479276381-eee3729ebaf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHJpZ2h0JTIwcHJvZmlsZSUyMG9mJTIwYSUyMHBob3RvZ3JhcGhlciUyMHdpdGglMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    
+}
+   
+
+#b3top p{
+    font-weight: 500;
+    font-size: 15px;
+    width: 50%;
+    padding: 5% 5% 5% 5%;
+}
+
+#b3bottom{
+    color: #ffff;
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBhbmQlMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+}
+#b3bottom i{
+    color: #ffff;
+    font-size: medium;
+    font-weight: 400;
+    align-items: center;
+}
+
+#b4{
+    color: white;
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1710705578455-22bd0c3cead0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEyfHxzYXZlJTIwbmF0dXJlfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+}
+
+#paraquote p{
+   text-align: center;
+   padding-top: 60.5%;
+   bottom: 10%;
+   align-items: center;
+   width: 45%;
+}
+
+#paraquote i{
+    color: white;
+    align-items: end;
+    padding-left: 85%;
+}
+
+@media(max-width: 500px){
+    #overlay #text{
+         flex-direction: column;
+         align-items:flex-start;
+    }
+    #text #h1{
+        font-size: 15vw;
+    }
+
+    #bottom{
+        min-height: 45vh;
+    }
+
+    #overlay #text #textright{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    #overlay #text #textright p{
+        width: initial;
+        margin-top: 17px;
+    }
+
+    #overlay #text #textright #icon{
+        margin-top: 30px;
+    }
+
+    #bottom {
+        flex-direction: column;
+    }
+
+    #b1{
+        width: 100%;
+    }
+    #b2{
+       width: 100%;
+    }
+    #b3{
+        min-height: 30vh;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #b3 #b3top #p{
+        font-size: 15vw;
+    }
+
+    #b4{
+        width: 100%;
+    }
+
+}
+
